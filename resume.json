@@ -58,55 +58,26 @@
       "company_name": "中国联通",
       "department_name": "青创社技术部(兼职)",
       "work_time": ["2019.10", "今"],
-      "work_desc": "1. 在处理与同学们进行校内网络反馈的同时，为团队优化双方沟通、事件处理的方案\n2. 为青创社内部提供技术支持，研发并优化产品以提高大家的工作效率",
+      "work_desc": "• 在处理与同学们进行校内网络反馈的同时，为团队优化双方沟通、事件处理的方案\n• 为青创社内部提供技术支持，研发并优化产品以提高大家的工作效率",
       "dataIndex": 0
     },
     {
       "work_time": ["2022.1.18", "今"],
       "company_name": "腾讯",
       "department_name": "CSIG质量部(实习)",
-      "work_desc": "1. 在中心的QAPM前端项目参与研发，在其中收获优秀前辈的代码经验，体会企业协作的全流程\n2. 作为导师之一参与24届同学的腾讯mini项目\n3. 不断吸收腾讯内部的优秀技术文章、优秀经验，结合自学内容总结并沉淀个人文章。截止目前，沉淀了10篇技术文章，6篇企业内部wiki；\n4. 中心内实习生中期考核评价唯二的优; 5月小红花奖\n* 具体项目经历请在项目经历栏查看"
-    }
-  ],
-  "skillList": [
-    {
-      "skill_name": "JavaScript",
-      "skill_level": 90,
-      "dataIndex": 0,
-      "skill_desc": "JavaScript：可以熟练使用ESNext开发项目，熟练在开发中应用合适的设计模式"
-    },
-    {
-      "skill_name": "React",
-      "skill_desc": "React：熟悉react，对react-hook了解较深\n熟悉react-redux及相关的thunk/saga中间层\n对React源码有一定研究",
-      "skill_level": 85,
+      "work_desc": "• 支持QAPM项目的前端开发，支持多个业务功能的开发迭代；独立负责前端跨时区适配；独立负责用户行为轨迹模块开发；研究项目性能优化；研究项目的工程化，并持续输出自定义cli、webpack优化、babel升级、husky+eslint等工程化内容；沉淀文档，梳理业务，便于新人快速上手等。\n• 支持2022年腾讯mini项目\n• 中心内实习生中期考核评价唯二的优; 5月小红花奖\n* 具体项目经历请在项目经历栏查看",
       "dataIndex": 1
-    },
-    {
-      "skill_name": "前端工程化",
-      "skill_desc": "前端工程化：努力实践前端工程化，对前端工程化较为熟悉。在腾讯实习期间，在和成员沟通后自发为QAPM项目完成了包括但不限于前端自定义cli、webpack优化、husky强制规范等内容",
-      "skill_level": 85,
-      "dataIndex": 2
-    },
-    {
-      "skill_name": "NodeJS",
-      "skill_level": 85,
-      "skill_desc": "NodeJS：有使用Express进行Serverless开发的经验，熟悉NodeJS云开发",
-      "dataIndex": 3
-    },
-    {
-      "skill_name": "跨端",
-      "skill_level": 75,
-      "skill_desc": "跨端：熟悉微信小程序原生开发，有接触过Taro开发和electron桌面应用程序开发"
     }
   ],
+  "skillList": [],
   "projectList": [
     {
       "project_name": "QAPM性能测试与监控",
       "project_role": "前端开发",
       "project_time": "2022.01.18 - 今",
       "project_base": "我在项目中主要负责前端各个模块的开发，涉及数据可视化、性能优化以及前端工程化建设等工作；",
-      "project_desc": "腾讯客户端性能分析(QAPM)是一款全方位定位检测APP应用性能的SDK，主要服务于各个银行以及内部部门。前端部分主要是做数据可视化的内容，QAPM的前端基于React开发，前后端交互基于类GQL架构。\n根据后台监控统计，日请求次数超6亿次，峰值QPS为4w",
-      "project_content": "\n1. webpack优化，打包体积13.3M=>2.72M，首次启动时间33.1s=>18.8s，二次启动时间31.9s=>8s\n2. 性能优化。项目中大量使用echart图表，多图表时页面性能表现较差，我做的最值得一提的优化是基于IntersectionObserver进行懒加载的自定义hook，实现了在50+个地方进行快速接入\n3. 时长2月多的新版本三大模块重构，我负责其中详情模块重构，模块涉及大量复杂表格与数据图表。截止七月初正式验收，由ChromeDev-Performance进行性能分析，性能排行第一。",
+      "project_desc": "腾讯客户端性能分析(QAPM)是一款全方位定位检测APP应用性能的SDK，主要服务于各个银行以及内部部门。前端部分基于React开发，使用redux+saga做全局状态管理和异步请求管理，主要做echart图表和复杂表格的数据可视化",
+      "project_content": "亮点&贡献：\n1. 项目打包速度慢，HMR失效/卡顿，所以做了webpack优化，打包体积13.3M=>2.72M，首次启动时间33.1s=>18.8s，二次启动时间31.9s=>8s\n2. 项目中多图表时页面性能表现较差，所以做了性能优化，这里实现了基于IntersectionObserver并结合业务代码进行懒加载的自定义hook，实现了在50+个地方进行快速接入\n3. 独立负责项目详情模块重构，模块涉及大量复杂表格与数据图表，良好的架构结合不同的自定义hook共享逻辑确保模块扩展度较高，即便后期新人加入也可以立即上手",
       "project_important": "1. 前端由于存在多环境，实际上有动态选择环境的需求，基于此开发了自定义cli用于快速切换环境\n2. 大量数据可视化图表带来性能问题，为此封装了自定义hook实现一键懒加载，缓解性能压力",
       "dataIndex": 0
     },
@@ -114,8 +85,8 @@
       "project_name": "深度定制的高校服务小程序sztulives",
       "project_role": "项目负责人/全栈开发",
       "project_time": "2021.07.15 - 今",
-      "project_desc": "sztulives是一款面向学生和老师的高校服务类定制小程序，拒绝从开源项目二开，产品功能与细节由我把控，志在为老师同学们提供友好的、便携的生活服务。2021年8月15日上线以来，在我校师生不超过6k的情况下，日访问人数达4k，周访问人数5k，活跃周留存长期保持超过90%",
-      "project_content": "\n1. 从节省成本的角度上说说两个主要的优化，面向冷数据(云端赋予的冷数据)与图片在前端建立LRU缓存淘汰系统，前者使得每日请求数据库次数降低了40%，后者则使得每日CDN流量花费约减少了30%\n2. 独立研发基于微信云开发的定时队列系统，拓展了官方未提供的定时任务传参、条件定时任务等功能。\n3. 独立研发个性化推荐系统，分析文章正负面情绪、提取文章标签，基于最新评论时间加权配合推荐算法向用户推送个性化信息。\n4. 前端无限下滑不等高列表的性能优化，自测支持500+篇数的文章",
+      "project_desc": "sztulives是一款从零开始的面向学生和老师的高校服务类定制小程序，志在为老师同学们提供友好的、便携的生活服务。2021年8月15日上线以来，在我校师生不超过6k的情况下，日访问人数达4k，周访问人数5k，活跃周留存长期保持超过90%",
+      "project_content": "亮点&贡献：\n1. 从节省成本的角度上说说两个主要的优化，面向冷数据(云端赋予的冷数据)与图片在前端建立LRU缓存淘汰系统，前者使得每日请求数据库次数降低了40%，后者则使得每日CDN流量花费约减少了30%\n2. 独立研发基于微信云开发的定时队列系统，拓展了官方未提供的定时任务传参、条件定时任务等功能。\n3. 独立研发个性化推荐系统，分析文章正负面情绪、提取文章标签，基于最新评论时间加权配合推荐算法向用户推送个性化信息。\n4. 前端无限下滑不等高列表的性能优化，自测支持500+篇数的文章",
       "dataIndex": 1
     },
     {
@@ -123,22 +94,125 @@
       "project_role": "项目负责人/全栈开发",
       "project_time": "2021.10.20 - 今",
       "project_desc": "netControl是我在兼职岗位上感受到平时工作内容不便后基于React开发的后台管理系统，搭配上微信平台的推送功能，可以打破学生与我们之间进度难以沟通的状态。",
-      "project_content": "netControl后台管理系统的核心功能是(基于微信消息推送)向用户推送工作进度并可以反馈问题单，并且采用响应式布局保证手机端和PC端的适配，为工作人员提供账单管理能力，为客户提供填表、支付、消息提醒等功能\n- 2021.10.29上线至今，降低了大家70%以上的工作量，已有720+单提交与处理\n- 作为青创社最孤单的部长，这是我单刷的",
+      "project_content": "亮点&贡献：\nnetControl后台管理系统的核心功能是(基于微信消息推送)向用户推送工作进度并可以反馈问题单，并且采用响应式布局保证手机端和PC端的适配，为工作人员提供账单管理能力，为客户提供填表、支付、消息提醒等功能\n- 2021.10.29上线至今，降低了大家70%以上的工作量，已有720+单提交与处理\n- 作为青创社最孤单的部长，这是我单刷的",
       "dataIndex": 2
     }
   ],
-  "workList": [],
+  "workList": [
+    {
+      "work_name": "magic-design魔法组件库🪄（施工中）",
+      "work_desc": "",
+      "visit_link": "https://grinzero.github.io/magic-design-react",
+      "dataIndex": 0
+    },
+    {
+      "work_name": "netControl后台管理系统",
+      "work_desc": "",
+      "visit_link": "https://admin.sztulives.cn/netControl/#/login"
+    },
+    {
+      "work_name": "人生重开模拟器--微信小程序复刻版",
+      "work_desc": "",
+      "visit_link": "https://github.com/GrinZero/lifeReStart-wxmini"
+    },
+    {
+      "work_name": "chrome-inject-eval",
+      "work_desc": "",
+      "visit_link": "https://github.com/GrinZero/chrome-inject-eval"
+    },
+    {
+      "work_name": "nethelper网络救助客户端（施工中）",
+      "work_desc": "",
+      "visit_link": "https://github.com/GrinZero/szutnethelper"
+    }
+  ],
   "aboutme": {
-    "aboutme_desc": "🌱 主动性=>在青创社这个兼职岗位上主动开发了一款后台管理系统方便工作，在腾讯实习时主动承担项目较为缺失的前端工程化工作，并都取得了成绩;\n😈 学习能力=>单学期专业绩点 4.04／满绩点 4.5，之后就专心开发项目了；\n🍄技术：具有大量实践经验，并且有阅读源码的习惯。;\n自驱型大前端工程师，平时喜欢以项目驱动自己学习，喜欢新技术，在前端工作上更注重用户体验。\n    "
+    "aboutme_desc": "🌱 主动性=>在青创社这个兼职岗位上主动开发了一款后台管理系统方便工作，在腾讯实习时主动承担项目较为缺失的前端工程化工作，并都取得了成绩;\n😈 学习能力=>单学期专业绩点 4.04／满绩点 4.5，之后就专心开发项目了；\n🍄技术：具有大量实践经验，并且有阅读源码的习惯。\n自驱型大前端工程师，平时喜欢以项目驱动自己学习，喜欢新技术，在前端工作上更注重用户体验。\n  ！注意以下项目经历均为有投入线上运营产品，其他项目请看个人作品！"
   },
-  "theme": {
-    "color": "rgba(127, 161, 247, 1)",
-    "tagColor": "rgba(237, 109, 117, 1)"
-  },
+  "mountEffectList": [
+    {
+      "xpath": "id(\"gatsby-focus-wrapper\")/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[3]/SPAN[1]/text()[1]",
+      "insertID": "selection-replace-1662392870074",
+      "html": "<span class=\"project-content\">亮点&amp;贡献：\n1. 项目打包速度慢，HMR失效/卡顿，所以做了<span id=\"selection-replace-1662392870074\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">webpack优化，打包体积13.3M=&gt;2.72M，首次启动时间33.1s=&gt;18.8s，二次启动时间31.9s=&gt;8s</span></span>\n2. 项目中多图表时页面性能表现较差，所以做了性能优化，这里实现了基于IntersectionObserver并结合业务代码进行懒加载的自定义hook，实现了在50+个地方进行快速接入\n3. 独立负责项目详情模块重构，模块涉及大量复杂表格与数据图表，良好的架构结合不同的自定义hook共享逻辑确保模块扩展度较高，即便后期新人加入也可以立即上手</span>",
+      "text": "webpack优化，打包体积13.3M=>2.72M，首次启动时间33.1s=>18.8s，二次启动时间31.9s=>8s"
+    },
+    {
+      "xpath": "id(\"gatsby-focus-wrapper\")/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/SPAN[1]/text()[1]",
+      "insertID": "selection-replace-1662392902250",
+      "html": "<span class=\"project-content\">亮点&amp;贡献：\n1. 从节省成本的角度上说说两个主要的优化，<span id=\"selection-replace-1662392902250\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">面向冷数据(云端赋予的冷数据)与图片在前端建立LRU缓存淘汰系统</span></span>，前者使得每日请求数据库次数降低了40%，后者则使得每日CDN流量花费约减少了30%\n2. 独立研发基于微信云开发的定时队列系统，拓展了官方未提供的定时任务传参、条件定时任务等功能。\n3. 独立研发个性化推荐系统，分析文章正负面情绪、提取文章标签，基于最新评论时间加权配合推荐算法向用户推送个性化信息。\n4. 前端无限下滑不等高列表的性能优化，自测支持500+篇数的文章</span>",
+      "text": "面向冷数据(云端赋予的冷数据)与图片在前端建立LRU缓存淘汰系统"
+    },
+    {
+      "xpath": "id(\"gatsby-focus-wrapper\")/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/DIV[1]/DIV[3]/DIV[3]/SPAN[1]/text()[1]",
+      "insertID": "selection-replace-1662393060865",
+      "html": "<span class=\"project-content\">亮点&amp;贡献：\nnetControl后台管理系统的核心功能是(基于微信消息推送)向用户推送工作进度并可以反馈问题单，并且采用响应式布局保证手机端和PC端的适配，<span id=\"selection-replace-1662393060865\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">为工作人员提供账单管理能力，为客户提供填表、支付、消息提醒等功能</span></span>\n- 2021.10.29上线至今，降低了大家70%以上的工作量，已有720+单提交与处理\n- 作为青创社最孤单的部长，这是我单刷的</span>",
+      "text": "为工作人员提供账单管理能力，为客户提供填表、支付、消息提醒等功能"
+    },
+    {
+      "xpath": "id(\"gatsby-focus-wrapper\")/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[3]/SPAN[1]/text()[1]",
+      "insertID": "selection-replace-1662393071974",
+      "html": "<span class=\"project-content\">亮点&amp;贡献：\n1. 项目打包速度慢，HMR失效/卡顿，所以做了<span id=\"selection-replace-1662392870074\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">webpack优化，打包体积13.3M=&gt;2.72M，首次启动时间33.1s=&gt;18.8s，二次启动时间31.9s=&gt;8s</span></span>\n2. 项目中多图表时页面性能表现较差，所以做了性能优化，这里实现了基于IntersectionObserver并结合业务代码进行懒加载的自定义hook，实现了在50+个地方进行快速接入\n3. 独立负责项目详情模块重构，模块涉及<span id=\"selection-replace-1662393071974\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">大量复杂表格与数据图表</span></span>，良好的架构结合不同的自定义hook共享逻辑确保模块扩展度较高，即便后期新人加入也可以立即上手</span>",
+      "text": "大量复杂表格与数据图表"
+    }
+  ],
+  "unmountEffectList": [
+    {
+      "xpath": "id(\"gatsby-focus-wrapper\")/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/SPAN[1]/text()[1]",
+      "insertID": "selection-replace-1662393028892",
+      "html": "<span class=\"project-content\">亮点&amp;贡献：\n1. 从节省成本的角度上说说两个主要的优化，<span id=\"selection-replace-1662392902250\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">面向冷数据(云端赋予的冷数据)与图片在前端建立LRU缓存淘汰系统</span></span>，前者使得每日请求数据库次数降低了40%，后者则使得每日CDN流量花费约减少了30%\n2. <span id=\"selection-replace-1662393022665\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\"><span id=\"selection-replace-1662393024518\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">独立研发</span></span></span></span>基于微信云开发的定时队列系统，拓展了官方未提供的定时任务传参、条件定时任务等功能。\n3. 独立研发个性化推荐系统，分析文章正负面情绪、提取文章标签，<span id=\"selection-replace-1662393019808\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">基于最新评论时间加权配合推荐算法</span></span>向用户推送个性化信息。\n4. <span id=\"selection-replace-1662393028892\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">前端无限下滑不等高列表</span></span>的性能优化，自测支持500+篇数的文章</span>",
+      "text": "前端无限下滑不等高列表"
+    },
+    {
+      "xpath": "id(\"gatsby-focus-wrapper\")/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/SPAN[1]/text()[1]",
+      "insertID": "selection-replace-1662393024518",
+      "html": "<span class=\"project-content\">亮点&amp;贡献：\n1. 从节省成本的角度上说说两个主要的优化，<span id=\"selection-replace-1662392902250\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">面向冷数据(云端赋予的冷数据)与图片在前端建立LRU缓存淘汰系统</span></span>，前者使得每日请求数据库次数降低了40%，后者则使得每日CDN流量花费约减少了30%\n2. <span id=\"selection-replace-1662393022665\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\"><span id=\"selection-replace-1662393024518\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">独立研发</span></span></span></span>基于微信云开发的定时队列系统，拓展了官方未提供的定时任务传参、条件定时任务等功能。\n3. 独立研发个性化推荐系统，分析文章正负面情绪、提取文章标签，<span id=\"selection-replace-1662393019808\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">基于最新评论时间加权配合推荐算法</span></span>向用户推送个性化信息。\n4. 前端无限下滑不等高列表的性能优化，自测支持500+篇数的文章</span>",
+      "text": "独立研发"
+    },
+    {
+      "xpath": "id(\"gatsby-focus-wrapper\")/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/SPAN[1]/text()[1]",
+      "insertID": "selection-replace-1662393022665",
+      "html": "<span class=\"project-content\">亮点&amp;贡献：\n1. 从节省成本的角度上说说两个主要的优化，<span id=\"selection-replace-1662392902250\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">面向冷数据(云端赋予的冷数据)与图片在前端建立LRU缓存淘汰系统</span></span>，前者使得每日请求数据库次数降低了40%，后者则使得每日CDN流量花费约减少了30%\n2. <span id=\"selection-replace-1662393022665\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">独立研发</span></span>基于微信云开发的定时队列系统，拓展了官方未提供的定时任务传参、条件定时任务等功能。\n3. 独立研发个性化推荐系统，分析文章正负面情绪、提取文章标签，<span id=\"selection-replace-1662393019808\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">基于最新评论时间加权配合推荐算法</span></span>向用户推送个性化信息。\n4. 前端无限下滑不等高列表的性能优化，自测支持500+篇数的文章</span>",
+      "text": "独立研发"
+    },
+    {
+      "xpath": "id(\"gatsby-focus-wrapper\")/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/SPAN[1]/text()[1]",
+      "insertID": "selection-replace-1662393019808",
+      "html": "<span class=\"project-content\">亮点&amp;贡献：\n1. 从节省成本的角度上说说两个主要的优化，<span id=\"selection-replace-1662392902250\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">面向冷数据(云端赋予的冷数据)与图片在前端建立LRU缓存淘汰系统</span></span>，前者使得每日请求数据库次数降低了40%，后者则使得每日CDN流量花费约减少了30%\n2. 独立研发基于微信云开发的定时队列系统，拓展了官方未提供的定时任务传参、条件定时任务等功能。\n3. 独立研发个性化推荐系统，分析文章正负面情绪、提取文章标签，<span id=\"selection-replace-1662393019808\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">基于最新评论时间加权配合推荐算法</span></span>向用户推送个性化信息。\n4. 前端无限下滑不等高列表的性能优化，自测支持500+篇数的文章</span>",
+      "text": "基于最新评论时间加权配合推荐算法"
+    },
+    {
+      "xpath": "id(\"gatsby-focus-wrapper\")/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[3]/SPAN[1]/text()[1]",
+      "insertID": "selection-replace-1662393007119",
+      "html": "<span class=\"project-content\">亮点&amp;贡献：\n1. 项目打包速度慢，HMR失效/卡顿，所以做了<span id=\"selection-replace-1662392870074\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">webpack优化，打包体积13.3M=&gt;2.72M，首次启动时间33.1s=&gt;18.8s，二次启动时间31.9s=&gt;8s</span></span>\n2. 项目中多图表时页面性能表现较差，所以做了性能优化，这里实现了基于IntersectionObserver并结合业务代码进行懒加载的自定义hook，实现了在50+个地方进行快速接入\n3. 独立负责项目详情模块重构，模块涉及大量<span id=\"selection-replace-1662393007119\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">复杂表格与数据图表</span></span>，良好的架构结合不同的自定义hook共享逻辑确保模块扩展度较高，即便后期新人加入也可以立即上手</span>",
+      "text": "复杂表格与数据图表"
+    },
+    {
+      "xpath": "id(\"gatsby-focus-wrapper\")/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[2]/DIV[5]/text()[1]",
+      "insertID": "selection-replace-1662392995021",
+      "html": "<div>  <span id=\"selection-replace-1662392995021\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">！注意以下项目经历均为有投入线上运营产品，其他项目请看个人作品！</span></span></div>",
+      "text": "！注意以下项目经历均为有投入线上运营产品，其他项目请看个人作品！"
+    },
+    {
+      "xpath": "id(\"gatsby-focus-wrapper\")/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/DIV[1]/DIV[3]/DIV[3]/SPAN[1]/text()[1]",
+      "insertID": "selection-replace-1662392913801",
+      "html": "<span class=\"project-content\">亮点&amp;贡献：\nnetControl后台管理系统的核心功能是(基于微信消息推送)向用户推送工作进度并可以反馈问题单，并且采用响应式布局保证手机端和PC端的适配，为工作人员提供<span id=\"selection-replace-1662392913801\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">账单管理</span></span>能力，为客户提供<span id=\"selection-replace-1662392911415\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">填表、支付、消息提醒</span></span>等功能\n- 2021.10.29上线至今，降低了大家70%以上的工作量，已有720+单提交与处理\n- 作为青创社最孤单的部长，这是我单刷的</span>",
+      "text": "账单管理"
+    },
+    {
+      "xpath": "id(\"gatsby-focus-wrapper\")/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/DIV[1]/DIV[3]/DIV[3]/SPAN[1]/text()[1]",
+      "insertID": "selection-replace-1662392911415",
+      "html": "<span class=\"project-content\">亮点&amp;贡献：\nnetControl后台管理系统的核心功能是(基于微信消息推送)向用户推送工作进度并可以反馈问题单，并且采用响应式布局保证手机端和PC端的适配，为工作人员提供账单管理能力，为客户提供<span id=\"selection-replace-1662392911415\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">填表、支付、消息提醒</span></span>等功能\n- 2021.10.29上线至今，降低了大家70%以上的工作量，已有720+单提交与处理\n- 作为青创社最孤单的部长，这是我单刷的</span>",
+      "text": "填表、支付、消息提醒"
+    }
+  ],
   "links": [
     "https://juejin.cn/user/1645288319627576/posts",
     "#小程序://lives/UaCtJlcwljs8Csn",
     "https://admin.sztulives.cn/netControl/#/login",
     "https://grinzero.github.io/magic-design-react"
-  ]
+  ],
+  "theme": {
+    "color": "rgba(127, 161, 247, 1)",
+    "tagColor": "rgba(237, 109, 117, 1)"
+  }
 }
