@@ -13,6 +13,8 @@
 
 - 😉 [My resume](https://visiky.github.io/resume/?user=GrinZero&branch=main), an online resume.
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=GrinZero&theme=dracula&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+<section>
+    <img src="https://github-readme-stats.vercel.app/api?username=GrinZero&theme=dracula&hide_border=true" alt="My github stats"/>
+</section>
 
 <img src="https://visitor-badge.glitch.me/badge?page_id=GrinZero" />
