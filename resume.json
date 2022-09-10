@@ -93,7 +93,7 @@
       "project_name": "SztuNetControl后台管理系统",
       "project_role": "项目负责人/全栈开发",
       "project_time": "2021.10.20 - 今",
-      "project_desc": "netControl是我在兼职岗位上感受到平时工作内容不便后基于React开发的后台管理系统，搭配上微信平台的推送功能，可以打破学生与我们之间进度难以沟通的状态。",
+      "project_desc": "netControl是我在兼职岗位上感受到平时工作内容不便后基于React+redux开发的后台管理系统，搭配上微信平台的推送功能，可以打破学生与我们之间进度难以沟通的状态。",
       "project_content": "亮点&贡献：\nnetControl后台管理系统的核心功能是(基于微信消息推送)向用户推送工作进度并可以反馈问题单，并且采用响应式布局保证手机端和PC端的适配，为工作人员提供账单管理能力，为客户提供填表、支付、消息提醒等功能\n- 2021.10.29上线至今，降低了大家70%以上的工作量，已有720+单提交与处理\n- 作为青创社最孤单的部长，这是我单刷的",
       "dataIndex": 2
     }
@@ -101,7 +101,6 @@
   "workList": [
     {
       "work_name": "magic-design魔法组件库🪄（施工中）",
-      "work_desc": "",
       "visit_link": "https://grinzero.github.io/magic-design-react",
       "dataIndex": 0
     },
