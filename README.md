@@ -1,6 +1,6 @@
 [![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=GrinZero&bg_color=transparent&color=7fa1f7&line=f77f7f&point=f7ab7f&area=true&hide_border=true)](https://github.com/GrinZero)
 
-<div>
+<div align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GrinZero&layout=compact&langs_count=8&theme=dracula&role=OWNER,COLLABORATOR&hide_border=true" alt="Top Langs" height="175px"/><img src="https://github-readme-stats.vercel.app/api?username=GrinZero&theme=dracula&hide_border=true" alt="My github stats" height="175px"/>
 </div>
 
