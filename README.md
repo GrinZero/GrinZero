@@ -11,6 +11,6 @@
 - 😉 [My resume](https://visiky.github.io/resume/?user=GrinZero&branch=main), an online resume.
 
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GrinZero&layout=compact&langs_count=8&theme=dracula&role=OWNER,COLLABORATOR" alt="Top Langs" height="195px"/><img src="https://github-readme-stats.vercel.app/api?username=GrinZero&theme=dracula&hide_border=true" alt="My github stats" height="195px"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GrinZero&layout=compact&langs_count=8&theme=dracula&role=OWNER,COLLABORATOR&hide_border=true" alt="Top Langs" height="195px"/><img src="https://github-readme-stats.vercel.app/api?username=GrinZero&theme=dracula&hide_border=true" alt="My github stats" height="195px"/>
 
 <img src="https://visitor-badge.glitch.me/badge?page_id=GrinZero" />
