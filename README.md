@@ -13,6 +13,6 @@
 
 ### Others
 
-- 😉 [My resume](https://visiky.github.io/resume/?user=GrinZero&branch=main), an online resume.
+- 😉 [My resume](https://visiky.github.io/resume/?user=GrinZero&branch=main&template=template2), an online resume.
 
 <img src="https://visitor-badge.glitch.me/badge?page_id=GrinZero" />
