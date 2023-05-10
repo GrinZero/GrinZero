@@ -13,7 +13,7 @@
   "template": "template2",
   "avatar": {
     "hidden": false,
-    "src": "https://bugyalu-1307401873.cos.ap-guangzhou.myqcloud.com/typora/WechatIMG50%202.jpg"
+    "src": "https://bugyalu-1307401873.cos.ap-guangzhou.myqcloud.com/typora/%E8%93%9D%E5%BA%95.jpg"
   },
   "profile": {
     "name": "王加博",
@@ -41,14 +41,14 @@
       "dataIndex": 0
     },
     {
-      "award_info": "腾讯&深技大19级mini项目组长｜腾讯&深技大20级mini项目导师",
-      "award_time": "2021.8.15｜2022.7.15",
+      "award_info": "腾讯&深技大19级mini项目组长",
+      "award_time": "2021.8.15",
       "dataIndex": 1
     },
-    {
-      "award_info": "深技大&腾讯一起成长 周记坚持者",
-      "award_time": "2021.6-2022.6",
-      "dataIndex": 2
+        {
+      "award_info": "阿里巴巴终端练习生结业证书",
+      "award_time": "2022.10.1",
+      "dataIndex": 1
     },
     {
       "award_time": "2021.7至今",
@@ -65,10 +65,10 @@
       "dataIndex": 0
     },
     {
-      "work_time": ["2022.1.18", "今"],
+      "work_time": ["2022.1.18", "2023.2.17"],
       "company_name": "腾讯",
       "department_name": "CSIG质量部(实习)",
-      "work_desc": "1. 支持QAPM项目的前端开发，支持多个业务功能的开发迭代；独立负责前端跨时区适配；独立负责用户行为轨迹模块开发；\n2. 研究项目性能优化；研究项目的工程化，并持续输出自定义cli、webpack优化、babel升级、husky+eslint等工程化内容；\n3. 沉淀文档，梳理业务，便于新人快速上手等。\n4. 支持2022年腾讯mini项目，指导学员完成前端自动化监控、js图像压缩等内容\n5. 中心内实习生中期考核评价唯二的优; 5月小红花奖\n* 具体项目经历请在项目经历栏查看",
+      "work_desc": "1. 支持QAPM项目的前端开发，支持多个业务功能的开发迭代；负责前端跨时区适配；负责用户行为轨迹模块开发；\n2. 研究项目性能优化；研究项目的工程化，并持续输出自定义cli、webpack优化、babel升级、husky等工程化内容；\n3. 沉淀文档，梳理业务，便于新人快速上手等。\n4. 支持2022年腾讯mini项目，指导学员完成前端自动化监控、js图像压缩等内容\n5. 中心内实习生中期考核评价优;终期考核S; 5月小红花奖\n* 具体项目经历请在项目经历栏查看",
       "dataIndex": 1
     }
   ],
@@ -77,27 +77,26 @@
     {
       "project_name": "QAPM性能测试与监控",
       "project_role": "前端开发",
-      "project_time": "2022.01.18 - 今",
+      "project_time": "2022.01.18 - 2023.2.17",
       "project_base": "我在项目中主要负责前端各个模块的开发，涉及数据可视化、性能优化以及前端工程化建设等工作；",
       "project_desc": "腾讯客户端性能分析(QAPM)是一款全方位定位检测APP应用性能的SDK，主要服务于各个银行以及内部部门。前端部分基于React开发，使用redux+saga做全局状态管理和异步请求管理，主要做echart图表和复杂表格的数据可视化",
-      "project_content": "\n1. 项目打包速度慢，HMR失效/卡顿，所以做了webpack优化，打包体积13.3M=>2.72M，首次启动时间33.1s=>18.8s，二次启动时间31.9s=>3+s，HMR时间现在仅600+ms\n2. 项目中多图表时页面性能表现较差，所以做了性能优化，这里实现了基于IntersectionObserver并结合业务代码进行懒加载的自定义hook，实现了在50+个地方进行快速接入\n3. 独立负责项目详情模块重构，模块涉及大量复杂表格与数据图表，良好的架构结合不同的自定义hook共享逻辑确保模块扩展度较高，即便后期新人加入也可以立即上手\n4. 独立负责用户行为轨迹模块，涉及用户行为播放器、行为列表、行为详情等功能，播放功能涉及播放链条，在播放过程中用户可以进行各种操作，所以需要对播放链条进行优化，确保用户体验良好\n5. 独立负责前端跨时区适配，涉及时间轴、时间选择器、时间格式化等功能，涉及到时区的转换，所以需要对时区进行统一管理，确保时间的准确性",
-      "project_important": "1. 前端由于存在多环境，实际上有动态选择环境的需求，基于此开发了自定义cli用于快速切换环境\n2. 大量数据可视化图表带来性能问题，为此封装了自定义hook实现一键懒加载，缓解性能压力",
+      "project_content": "\n1. 项目打包速度慢，HMR失效/卡顿，所以做了webpack优化，打包体积13.3M=>2.72M，首次启动时间33.1s=>18.8s，二次启动时间31.9s=>3+s，HMR时间现在仅600+ms\n2. 项目中多图表时页面性能表现较差，所以做了性能优化，这里实现了基于IntersectionObserver并结合业务代码进行懒加载的自定义hook，实现了多图表场景的性能优化\n3. 独立负责项目详情模块重构，模块涉及大量复杂表格与数据图表，良好的架构结合不同的自定义hook共享逻辑确保模块扩展度较高，即便后期新人加入也可以立即上手\n4. 独立负责用户行为轨迹模块，涉及用户行为播放器、行为列表、行为详情等功能，播放功能涉及播放链条，在播放过程中用户可以进行各种操作，所以需要对播放链条进行优化，确保用户体验良好\n5. 独立负责前端跨时区适配，涉及时间轴、时间选择器、时间格式化等功能，涉及到时区的转换，所以需要对时区进行统一管理，确保时间的准确性\n6. 前端由于存在多环境，实际上有动态选择环境的需求，基于此开发了自定义cli用于快速切换环境",
       "dataIndex": 0
     },
     {
       "project_name": "深度定制的高校服务小程序sztulives",
       "project_role": "项目负责人/全栈开发",
-      "project_time": "2021.07.15 - 今",
+      "project_time": "2021.07.15 - 2022.10.1",
       "project_desc": "sztulives是一款从零开始的面向学生和老师的高校服务类定制小程序，志在为老师同学们提供友好的、便携的生活服务。2021年8月15日上线以来，在我校师生不超过6k的情况下，日访问人数达4k，周访问人数5k，活跃周留存长期保持超过90%",
       "project_content": "\n1. 从节省成本的角度上说说两个主要的优化，面向冷数据(云端赋予的冷数据)与图片在前端建立LRU缓存淘汰系统，前者使得每日请求数据库次数降低了40%，后者则使得每日CDN流量花费约减少了30%\n2. 独立研发基于微信云开发的定时队列系统，拓展了官方未提供的定时任务传参、条件定时任务等功能。\n3. 独立研发个性化推荐系统，分析文章正负面情绪、提取文章标签，基于最新评论时间加权配合推荐算法向用户推送个性化信息。\n4. 前端无限下滑不等高列表的性能优化，自测支持500+篇数的文章\n5. 基于数据库watch的实时信息通信系统，实现了用户之间的实时通信",
       "dataIndex": 1
     },
     {
-      "project_name": "SztuNetControl后台管理系统",
+      "project_name": "nethelper网络救助客户端",
       "project_role": "项目负责人/全栈开发",
-      "project_time": "2021.10.20 - 今",
-      "project_desc": "netControl是我在兼职岗位上感受到平时工作内容不便后基于React+redux开发的后台管理系统，搭配上微信平台的推送功能，可以打破学生与我们之间进度难以沟通的状态。",
-      "project_content": "\nnetControl后台管理系统的核心功能是(基于微信消息推送)向用户推送工作进度并可以反馈问题单，并且采用响应式布局保证手机端和PC端的适配，为工作人员提供账单管理能力，为客户提供填表、支付、消息提醒等功能\n- 2021.10.29上线至今，降低了大家70%以上的工作量，已有720+单提交与处理\n- 作为青创社最孤单的部长，这是我单刷的",
+      "project_time": "2022.10.31 - 今",
+      "project_desc": "nethelper是一款基于electron+react+ts+tailwindcss的跨平台客户端，旨在为我校用户提供便捷的网络救助服务，目前已支持windows、macOS平台。整个系统实际上还包括基于koa与socket.io的服务端以及从electron渲染层抽离出来的Web端工单系统",
+      "project_content": "\n1. 具有较强的跨平台兼容性。nethelper涉及调用系统命令行以及修改hosts等较底层的操作，为了处理跨平台兼容性踩过文字编码、路径分隔符、系统命令差别、管理员权限、自动更新甚至包括icon等各个方面的坑。\n2. Promise化IPC通信架构，架构后便于测试，并提供完整的类型推断。\n3. 基于socket.io的实时通信系统，实现实时工单系统，可以发送图片、文件等多种类型的消息。\n4. 基于Github Action自动打包多平台客户端和部署Web工单系统。\n5. 魔法hosts。提供管理本地hosts与云端hosts的能力，解决了常规流程中修改hosts流程繁琐的问题。",
       "dataIndex": 2
     }
   ],
@@ -108,9 +107,14 @@
       "dataIndex": 0
     },
     {
-      "work_name": "netControl后台管理系统",
+      "work_name": "nethelper网络救助客户端",
       "work_desc": "",
-      "visit_link": "https://admin.sztulives.cn/netControl/#/login"
+      "visit_link": "https://github.com/GrinZero/szutnethelper"
+    },
+    {
+      "work_name": "flash-game-x🚀无需flash运行过去的回忆",
+      "work_desc": "",
+      "visit_link": "https://github.com/GrinZero/flash-game-x"
     },
     {
       "work_name": "人生重开模拟器--微信小程序复刻版",
@@ -118,33 +122,20 @@
       "visit_link": "https://github.com/GrinZero/lifeReStart-wxmini"
     },
     {
-      "work_name": "chrome-inject-eval",
+      "work_name": "chrome-inject-eval在chrome插件v3中越过安全策略使用eval",
       "work_desc": "",
       "visit_link": "https://github.com/GrinZero/chrome-inject-eval"
-    },
-    {
-      "work_name": "nethelper网络救助客户端（持续施工中）",
-      "work_desc": "",
-      "visit_link": "https://github.com/GrinZero/szutnethelper"
     }
   ],
   "aboutme": {
-    "aboutme_desc": "🌱 主动性=>在腾讯实习时主动承担项目较为缺失的前端工程化工作，效果显著，得到中心评奖;\n🍄 技术=> 精通react，有electron、小程序、组件库相关的项目经验，熟练使用ES6+，了解TypeScript的基本使用。\n自驱型大前端工程师，喜欢以项目驱动自己学习，热爱新技术，在前端工作上更注重用户体验。"
+    "aboutme_desc": "🌱 主动=> 在腾讯实习时主动承担项目较为缺失的前端工程化工作，效果显著，得到中心评奖;\n🍄 技术=> 精通react，有electron、nestjs、小程序、组件库相关的项目经验，熟练使用ES6+，熟悉TypeScript；\n🔮 热爱=> Github活跃，如近期为stable-diffusion-webui项目贡献过多次PR；掘金社区作者，阅读量超6w，文章被收藏数超1k；\n自驱型大前端工程师，喜欢以项目驱动自己学习，热爱新技术，在前端工作上更注重用户体验。"
   },
   "links": [
     "https://juejin.cn/user/1645288319627576/posts",
-    "#小程序://lives/UaCtJlcwljs8Csn",
-    "https://admin.sztulives.cn/netControl/#/login",
-    "https://grinzero.github.io/magic-design-react"
+    "https://flash-game-x.netlify.app/",
+    "https://grinzero.github.io/magic-design-react",
+    "https://github.com/GrinZero/sztunethelper/releases/latest",
+    "#小程序://lives/UaCtJlcwljs8Csn"
   ],
-  "mountEffectList": [
-    {
-      "xpath": "id(\"gatsby-focus-wrapper\")/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[3]/SPAN[2]/text()[1]",
-      "insertID": "selection-replace-1664012315507",
-      "html": "<span class=\"project-content\">\n1. 项目打包速度慢，HMR失效/卡顿，所以做了<span id=\"selection-replace-1664012315507\" data-reactroot=\"\"><span style=\"background-color:var(--primary-color);color:white\">webpack优化，打包体积13.3M=&gt;2.72M，首次启动时间33.1s=&gt;18.8s，二次启动时间31.9s=&gt;3+s，HMR时间现在仅600+ms</span></span>\n2. 项目中多图表时页面性能表现较差，所以做了性能优化，这里实现了基于IntersectionObserver并结合业务代码进行懒加载的自定义hook，实现了在50+个地方进行快速接入\n3. 独立负责项目详情模块重构，模块涉及大量复杂表格与数据图表，良好的架构结合不同的自定义hook共享逻辑确保模块扩展度较高，即便后期新人加入也可以立即上手\n4. 独立负责用户行为轨迹模块，涉及用户行为播放器、行为列表、行为详情等功能，播放功能涉及播放链条，在播放过程中用户可以进行各种操作，所以需要对播放链条进行优化，确保用户体验良好\n5. 独立负责前端跨时区适配，涉及时间轴、时间选择器、时间格式化等功能，涉及到时区的转换，所以需要对时区进行统一管理，确保时间的准确性</span>",
-      "text": "webpack优化，打包体积13.3M=>2.72M，首次启动时间33.1s=>18.8s，二次启动时间31.9s=>3+s，HMR时间现在仅600+ms"
-    }
-  ],
-  "unmountEffectList": [],
   "theme": { "color": "rgba(127, 161, 247, 1)", "tagColor": "rgba(237, 109, 117, 1)" }
 }
