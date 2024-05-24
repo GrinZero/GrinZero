@@ -14,4 +14,4 @@
 
 - 😉 [My resume](https://grinzero.github.io/resume/?user=GrinZero&branch=main&template=template3), an online resume.
 
-<img src="https://visitor-badge.glitch.me/badge?page_id=GrinZero" />
+<img src="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FGrinZero" />
