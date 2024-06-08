@@ -7,7 +7,7 @@
 ### Hi guys 👋
 
 - 🌱 I focus on react and more front-end knowledge
-- 📫 How to reach me: 774933704@qq.com
+- 📫 How to reach me: bugyaluwang@qq.com
 - 📚 juejin(掘金)：https://juejin.cn/user/1645288319627576/posts
 
 ### Others
