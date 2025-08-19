@@ -8,7 +8,8 @@
 
 - 🌱 I focus on react and more front-end knowledge
 - 📫 How to reach me: bugyaluwang@qq.com
-- 📚 blog：https://juejin.cn/user/1645288319627576/posts
+- 📚 blog: https://juejin.cn/user/1645288319627576/posts
+- 📄 about me: https://bugyaluwang.notion.site/23b1a167e52b80e39d0df4c9556b3101
 
 ### Others
 
